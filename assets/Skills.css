@@ -1,0 +1,232 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower:regular);
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular);
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    padding: 0 0;
+    margin: 0 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color:black;
+    border-radius: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: antiquewhite;
+}
+.navbar{
+  width: auto;
+  height: 8vh;
+  padding: 0px 10%;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 2px solid whitesmoke;
+  font-size: 17px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.middlebar ul{
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.middlebar ul li{
+  display: inline-block;
+}
+.navbar a{
+  margin: 15px;
+  padding: 0px;
+  text-decoration: none;
+  color: whitesmoke;
+  position: relative;
+  transition: 0.25s ease;
+}
+
+.navbar button{
+  margin: 15px;
+  text-decoration: none;
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+  position: relative;
+}
+
+
+
+.navbar{
+  width: auto;
+  height: 8vh;
+  padding: 0px 10%;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 2px solid whitesmoke;
+  font-size: 17px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.middlebar ul{
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.middlebar ul li{
+  display: inline-block;
+}
+.navbar a{
+  margin: 15px;
+  padding: 0 0 4px 0;
+  text-decoration: none;
+  color: whitesmoke;
+  position: relative;
+  transition: 0.5s ease;
+}
+
+.navbar button{
+  margin: 15px;
+  padding: 0 0 4px 0;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: whitesmoke;
+  position: relative;
+}
+
+
+.navbar #music:hover{
+  color: #656A7B;
+  box-shadow: 0 2px 0 0 currentColor;
+}
+.navbar a:hover{
+  color: #656A7B;
+  box-shadow: 0 2px 0 0 currentColor;
+}
+
+.link{
+  float: right;
+}
+.logo{
+  float: left;
+}
+#language span{
+  padding: 0 0 4px 0;
+}
+
+#language span:hover{
+  color: #656A7B;
+}
+
+.music{
+  display: inline-block;
+  line-height: 6vh;
+  width: 10vw;
+  height: 8vh;
+}
+
+.music button{
+    border: transparent;
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+.music button:hover{
+  color: #656A7B;
+}
+
+#music span{
+    color: #656A7B;
+}
+
+#music i{
+    color: red;
+    text-decoration: none;
+}
+
+*{
+  padding: 0 0;
+  margin: 0 0;
+}
+body {
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;  
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.tagcloud {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+  color:white;
+  }
+  .tagcloud--item:hover {
+    color: #656A7B;
+  }
+
+.left{
+  color: white;
+  flex: 60%;
+}
+
+.left h1{
+  font-family: "Poppins";
+  color: #656A7B;
+  font-size: 8vh;
+  font-weight: 600;
+  margin: 20px 0 0  20px;
+}
+
+.left p{
+  font-size: 2.5vh;
+  font-weight: 200;
+  margin: 20px 0 0  20px;
+}
+.Slider{
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+  place-items: center;
+}
+
+.BOX{
+  display: flex;
+  width: 80vw;
+  height: fit-content;
+  border: 2px solid whitesmoke;
+  border-radius:10px;
+  padding: 5vh 3vw 5vh 3vw;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+}
+
+.content{
+  flex: 40%;
+  display: grid;
+  place-items: center;
+}
