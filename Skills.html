@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,1,0" />
+    <link rel="stylesheet" href="assets/Skills.css">
+    <script defer src="assets/Skills.js"></script>
+    <title>Souhail</title>
+</head>
+<body class="finisher-header">
+    <div class="navbar">
+        <a href="index.html" class="logo"> Souhail</a>
+        <div class="middlebar">
+          <ul>
+                <li><a href="portfolio.html" class="link" id="a3">Portfolio</a></li>
+                <li><a href="Skills.html" class="link" id="a4">Skills</a></li>
+                <li><a href="aboutme.html" class="link" id="a2">About me</a></li>
+                <li><a href="contact.html" class="link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="right">
+        <button id="language" class="link"><span class="material-symbols-outlined">g_translate</span></button>
+        <div class="music">
+            <audio id="audio" src="Autres/Doitagain.mp3"></audio>
+            <button onclick="var audio = document.getElementById('audio');var music = document.getElementById('music');
+            if (audio.paused) {audio.play();music.innerHTML = 'Sound <span>ON</span>';} else {audio.pause();music.innerHTML = 'Sound <i>OFF</i>';}"id="music">Sound <i>OFF</i></button>
+        </div>
+        </div>
+    </div>
+    <div class="Slider">
+        <div class="BOX">
+          <div class="left">
+            <h1 id="m293">My Skills</h1>
+            <p id="mmmm">
+              As a junior Full-Stack developer, I have a strong foundation in HTML, CSS, and JavaScript. I am able to create responsive and user-friendly websites, and I have expanded my skills by working with various technologies.<br> Through my experience, I have gained proficiency in React.js, Three.js, and Tilt.js, which have allowed me to enhance my projects and deliver engaging user experiences.</p>
+            </div>
+          <span class="content"></span>
+        </div>  
+      </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+    <script src="assets/finisher-header.es5.min.js" type="text/javascript"></script>
+    
+      <script>
+    const myTags = [
+        'JavaScript', 'CSS', 'HTML',
+        'C', 'C++', 'React.Js',
+        'Git','MySQL', 'jQuery',
+        'Docker','PHP', 'Linux',
+        'Tilt.Js','TagCloud.js'
+    ];
+    
+    var tagCloud = TagCloud('.content', myTags,{
+    
+      // radius in px
+      radius: 200,
+    
+      // animation speed :
+      // slow, normal, fast
+      maxSpeed: 'fast',
+      initSpeed: 'fast',
+    
+      // 0 = top
+      // 90 = left
+      // 135 = right-bottom
+      direction: 135,
+      
+      // interact with cursor move on mouse out
+      keep: true
+      
+    });
+    
+    //To change the color of text randomly
+    var colors = ['#34A853', '#FBBC05', '#4285F4', '#7FBC00', 'FFBA01', '01A6F0'];
+    var random_color = colors[Math.floor(Math.random() * colors.length)];
+    document.querySelector('.content').style.color = random_color;
+
+    new FinisherHeader({
+      "count": 8,
+      "size": {
+        "min": 1100,
+        "max": 1300,
+        "pulse": 0.2
+      },
+      "speed": {
+        "x": {
+          "min": 1,
+          "max": 1,
+        },
+        "y": {
+          "min": 0.1,
+          "max": 0.3
+        }
+      },
+      "colors": {
+        "background": "#656A7B",
+        "particles": [
+          "#000000",
+          "#000814",
+          "#000000"
+        ]
+      },
+      "blending": "overlay",
+      "opacity": {
+        "center": 1,
+        "edge": 0.1
+      },
+      "skew": -2,
+      "shapes": [
+        "c"
+      ]
+    });
+    
+      </script>
+
+    <div id="skills">
+        <div class="left2">
+            <h1 id="h10">Skills & Experience</h1>
+            <p id="p1">As a junior front-end developer, I have a strong foundation in HTML, CSS, and JavaScript. I am able to create responsive, 
+                user-friendly websites and have experience working with popular front-end frameworks such as React.</p></br>
+            <p id="p2">I am dedicated to staying up-to-date with the latest front-end technologies and best practices and am always eager to learn and improve my skills. 
+                I am a team player and am able to work well under pressure in fast-paced environments. I am committed to delivering high-quality work and am excited to take on new challenges as a front-end developer.</p>
+        </div>
+        <div class="right2">
+            <div class="haut">
+                <h4>HTML</h4>
+                <div class="barreskill"></div>
+                <div class="barreskill1"></div>
+                <h4>CSS</h4>
+                <div class="barreskill"></div>
+                <div class="barreskill2"></div>
+                <h4>Javascript </h4>
+                <div class="barreskill"></div>
+                <div class="barreskill3"></div>
+                <h4>React</h4>
+                <div class="barreskill"></div>
+                <div class="barreskill4"></div>
+            </div>  
+            <div class="bas">
+                <h1 id="h11">Education</h1>
+                <div class="cards">
+                    <div>
+                        <h2><span class="material-symbols-outlined">school</span> Telecom Saint-Etienne</h2>
+                        <h3>2020-2021</h3>
+                        <h4 id="h12"> CITISE : Triple diplôme <br> - CPGE <br>- L1 Physique Chimie<br>- DUT GEII</h4>
+                    </div>
+                    <div>
+                        <h2><span class="material-symbols-outlined">school</span> ISTP / Mines de Saint-Etienne</h2>
+                        <h3>2021-2023</h3>
+                        <h4 id="h13">Deuxième année en Licence Sciences de l'ingénieur</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
