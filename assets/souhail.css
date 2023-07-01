@@ -342,16 +342,15 @@ body{
     position: relative;
     width: 100%;
     height: auto;
-    display: flex;
-    align-items: center;
+    display: grid;
+    place-items: center;
     
   }
   
   .form {
-    width: 100%;
-    max-width: 600px;
+    width: 80vw;
     background-color: transparent;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     display: grid;
@@ -443,6 +442,7 @@ body{
 
   .contact-info{
     background-color: white;
+    border-radius: 15px;
   }
   
   .btn {
@@ -667,5 +667,19 @@ body{
     width: 100%;
 
   }
-  
+}
+
+
+@media only screen and (max-width: 400px) {
+    .bas h2{
+      font-size: 20px;
+    }
+
+    .bas .wrapper span {
+      font-size: 20px;
+    }
+
+    .contact-info{
+      padding: 1.5rem 1.5rem;
+    }
 }
